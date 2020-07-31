@@ -1,0 +1,33 @@
+img {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.select {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.select a {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Helvetica', serif;
+  font-size: 16px;
+  color: #58595b;
+  margin-right: 20px;
+}
+
+.image img{
+  width: inherit;
+  max-width: 90%;
+  height: auto;
+}
