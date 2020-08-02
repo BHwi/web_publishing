@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<meta charset="utf-8">
+	<!-- 
+		border = 테두리, solid = 테두리 색깔
+	 -->
+	<style type="text/css">
+		h1{
+			border: 5px solid red;
+		}
+
+		.p1{
+			border: 5px solid red;	
+			/* padding(margin)을 padding(margin)-top부터 시계방향 순으로 설정 가능. */
+			margin: 80px 30px 75px 50px;
+
+		}
+
+		.p2{
+			border: 5px solid red;
+			max-width: 500px;
+			/* Box Model을 가운데 정렬하기 위해 margin-left, margin-right를 auto로 설정. */
+			margin: 0 auto;
+		}
+
+		.p3{
+			border: 5px solid red;
+			max-height: 200px;
+			/* max값을 지정하였을 때 초과되는 값을 overflow라고 함.
+			   hidden : 초과되는 값 숨기기
+			   기본값 : visible
+			   스크롤 가능 : scroll
+			   자동 : auto
+			   자동을 사용할 때는 스크롤이 필요할때만 나타남. 
+			   스크롤은 사용하면 스크롤이 필요없어도 무조건 나타남.
+			*/
+			overflow: scroll;
+		}
+
+		.p4{
+			/* border : 테두리
+			   solid : 평범한 선;
+			   dotted : 점선;
+			   dashed : 파선;
+			*/
+			border: 2px dashed #4d9fff;
+			/* 
+			   이렇게도 쓸 수 있음.
+			   border-style: solid;
+			   border-color: #4d9fff;
+			   border-width: 2px;
+			*/
+			/*
+			   border도 top, right, bottom, left를 따로 설정 가능.
+			   border-top: 2px dotted #4d9fff;
+			   border-right: 2px dotted #4d9fff;
+			   border-bottom: 2px dotted #4d9fff;
+			   border-left: 2px dotted #4d9fff;
+			*/
+		}
+
+		.p5{
+			width: 400px;
+			border: 5px solid green;
+			padding: 50px;
+
+			/* 테두리 둥글게. radius가 크면 클수록 둥글어짐. */
+			border-radius: 10px;
+			
+			/* 
+			   박스 내 배경 색 지정. 
+			   transparent로 지정할 경우 투명.(기본값)
+			*/
+			background-color: #4d9fff;
+
+			/* 
+			   그림자 입히기. none : 기본값 
+			   box-shadow: 가로px(커질수록 오른쪽) 세로px(커질수록 아래쪽) 
+			   그림자 흐려지는 정도px(커질수록 더 흐려짐) 그림자 크기px red(그림자 색);
+			   음수값은 그 반대.
+			*/
+			box-shadow: 100px 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Reading</h1>
+	<p class="p1">Here you can find activities to practise your reading skills. Reading will help you to improve your understanding of the language and build your vocabulary.</p>
+
+	<p class="p2">The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time. Take our free online English test to find out which level to choose. Select your level, from beginner (CEFR level A1) to advanced (CEFR level C1), and improve your reading skills at your own speed, whenever it's convenient for you.</p>
+
+	<p class="p3">The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time. Take our free online English test to find out which level to choose. Select your level, from beginner (CEFR level A1) to advanced (CEFR level C1), and improve your reading skills at your own speed, whenever it's convenient for you. The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time. </p>
+
+	<p class="p4">The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time. Take our free online English test to find out which level to choose. Select your level, from beginner (CEFR level A1) to advanced (CEFR level C1), and improve your reading skills at your own speed, whenever it's convenient for you.</p>
+
+	<p class="p5">The self-study lessons in this section are written and organised according to the levels of the Common European Framework of Reference for languages (CEFR). There are different types of texts and interactive exercises that practise the reading skills you need to do well in your studies, to get ahead at work and to communicate in English in your free time. Take our free online English test to find out which level to choose. Select your level, from beginner (CEFR level A1) to advanced (CEFR level C1), and improve your reading skills at your own speed, whenever it's convenient for you.</p>
+</body>
+</html>
