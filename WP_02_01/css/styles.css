@@ -1,0 +1,27 @@
+.div1 {
+	height: 500px;
+	border: 5px solid green;
+	background-image: url("../images/beach.jpg");
+	/*
+		background-repeat는 말 그대로 이미지를 반복하는지 아닌지.
+		설정 안할경우 이미지 반복.
+		no-repeat으로 설정할 경우 반복X.
+		space는 여백(기본값).
+		repeat-x는 가로방향만 반복
+		repeat-y는 세로방향만 반복
+	*/
+	background-repeat: no-repeat;
+	/*
+		background-size를 cover로 할 경우 꽉채우면서 찌그러지지않게 함.
+		background-size를 100%로 설정할 경우 화면은 꽉 채울수 있지만 찌그러짐.
+		background-size를 가로세로를 px로 하면 사진이 잘림.
+	*/
+	background-size: cover;
+	/*
+		background-position은 이미지가 잘릴경우 집중할 곳을 선택하는 것임.
+		(왼쪽, 오른쪽) (위, 아래)
+		ex) 왼쪽 위를 선택했다면 오른쪽과 아래부분이 짤리는 형식
+		center는 양쪽을 같이 짜름.
+	*/
+	background-position: center center;
+}
