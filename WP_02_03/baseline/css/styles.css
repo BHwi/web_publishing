@@ -1,0 +1,30 @@
+/* 
+	vertical-align
+	top으로 설정할 경우 부모 클래스의 가장 높은 곳이
+	해당하는 box의 위가 위치함.
+	baseline은 바뀔 수 있음.
+	baseline은 vertical-align의 조건들을 충족시키면서
+	줄의 높이를 최소화시키는 곳에 위치한다.
+*/
+
+.container {
+	background-color: orange;
+}
+
+.alex {
+	font-size: 90px;
+	background-color: pink;
+	vertical-align: top;
+}
+
+.ben {
+	font-size: 30px;
+	background-color: lime;
+	vertical-align: middle;
+}
+
+.chris {
+	font-size: 60px;
+	background-color: yellow;
+	vertical-align: middle;
+}
