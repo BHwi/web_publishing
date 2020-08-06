@@ -1,0 +1,29 @@
+.quote {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  margin-top: 75px;
+}
+
+.figure {
+  margin-top: 50px;
+}
+
+.double-quote {
+	font-size: 96px;
+	position: relative;
+}
+
+.left {
+	top: 20px;
+}
+
+.right {
+	top: 80px;
+}
+
+.content {
+	margin-left: 15px;
+	margin-right: 15px;	
+}
