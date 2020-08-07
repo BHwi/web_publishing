@@ -29,17 +29,39 @@ h2 {
 }
 
 .total {
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.grid {
+.grid1 {
   float: left;
   margin-right: 30px;
   margin-bottom: 50px;
 }
 
+.grid2 {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.grid3 {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.grid4 {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.clearfix {
+  clear: left;
+}
+
 .contents {
   margin-top: 0px;
-  margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
   width: 300px;
