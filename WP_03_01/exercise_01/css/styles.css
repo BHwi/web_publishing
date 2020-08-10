@@ -1,0 +1,86 @@
+div {
+	width: 100%;
+	float: left;
+}
+
+#red {
+	background-color: red;
+	height: 60px;
+}
+
+#orange {
+	background-color: orange;
+	height: 350px;
+}
+
+#yellow {
+	background-color: yellow;
+	height: 320px;
+}
+
+#green {
+	background-color: green;
+	height: 385px;
+}
+
+#blue {
+	background-color: blue;
+	height: 200px;
+}
+
+#purple {
+	background-color: purple;
+	height: 200px;
+}
+
+@media (min-width: 768px) {
+	#orange {
+		height: 582px;
+	}
+
+	#yellow {
+		height: 282px;
+	}
+
+	#green {
+		height: 360px;
+		width: 50%;
+	}
+
+	#blue {
+		height: 180px;
+		width: 50%;
+	}
+
+	#purple {
+		height: 180px;
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	#orange {
+		height: 700px;
+		width: 50%;
+	}
+
+	#yellow {
+		height: 350px;
+		width: 50%;
+	}
+
+	#green {
+		height: 350px;
+		width: 25%;
+	}
+
+	#blue {
+		height: 175px;
+		width: 25%;
+	}
+
+	#purple {
+		height: 175px;
+		width: 25%;
+	}
+}
