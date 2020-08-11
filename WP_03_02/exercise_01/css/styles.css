@@ -1,0 +1,72 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#carouselExampleIndicators {
+	height: 400px;
+}
+
+#carouselExampleIndicators .carousel-inner {
+	height: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .item-1{
+	height: 100%;
+	background-image: url("../images/guitar.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+}
+
+#carouselExampleIndicators .carousel-inner .item-2{
+	height: 100%;
+	background-image: url("../images/makeup.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+#carouselExampleIndicators .carousel-inner .item-3{
+	height: 100%;
+	background-image: url("../images/cooking.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .content-box{
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .content-box h1{
+	font-size: 32px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .content-box h2{
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 48px;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .content-box a{
+	background-color: #5900e7;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+.row a:hover {
+	text-decoration: none;
+}
